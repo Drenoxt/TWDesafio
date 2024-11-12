@@ -49,18 +49,13 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
     php artisan db:seed
 
 
-Usuarios Predefinidos
-El sistema viene con algunos usuarios predefinidos para propósitos de prueba.
+## Usuarios Predefinidos
 
-Administrador
+El sistema incluye usuarios predefinidos para propósitos de prueba:
 
-Nombre: adminTW
-Email: adminTW@example.com
-Contraseña: 123
-Rol: Administrador
-Cliente
+| Rol          | Nombre    | Email               | Contraseña | Rol        |
+|--------------|-----------|---------------------|------------|------------|
+| Administrador| adminTW   | adminTW@example.com | 123        | Administrador |
+| Cliente      | clienteTW | clienteTW@example.com | 123     | Cliente     |
 
-Nombre: clienteTW
-Email: clienteTW@example.com
-Contraseña: 123
-Rol: Cliente
+Puedes utilizar estos usuarios para probar las funcionalidades disponibles para cada rol.
